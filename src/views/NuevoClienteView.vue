@@ -1,5 +1,6 @@
 <script setup>
 import RouterLink from "../components/UI/RouterLink.vue";
+import Title from '../components/UI/Title.vue';
 </script>
 
 <template>
@@ -7,6 +8,6 @@ import RouterLink from "../components/UI/RouterLink.vue";
     <div class="flex justify-end">
       <RouterLink to="home">Volver</RouterLink>
     </div>
-    <h1 class="text-4xl font-extrabold text-slate-500">Agregar cliente</h1>
+    <Title>Agregar cliente</Title>
   </div>
 </template>
