@@ -1,6 +1,12 @@
 <script setup>
 import RouterLink from "../components/UI/RouterLink.vue";
-import Title from '../components/UI/Title.vue';
+import Title from "../components/UI/Title.vue";
+
+defineProps({
+  titleProp: {
+    type: String,
+  },
+});
 </script>
 
 <template>
@@ -8,6 +14,6 @@ import Title from '../components/UI/Title.vue';
     <div class="flex justify-end">
       <RouterLink to="home">Volver</RouterLink>
     </div>
-    <Title>Agregar cliente</Title>
+    <Title>{{ titleProp }}</Title>
   </div>
 </template>
