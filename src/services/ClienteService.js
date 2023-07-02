@@ -5,6 +5,9 @@ export default {
     return api.get("/clientes");
   },
   agregarCliente(data) {
-    return api.post("http://localhost:4000/clientes", data)
+    return api.post("/clientes", data)
+  },
+  obtenerCliente(id) {
+    return api.get("/clientes/"+ id)
   }
 };
