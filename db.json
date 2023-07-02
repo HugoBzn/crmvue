@@ -17,6 +17,15 @@
       "empresa": "Saori",
       "puesto": "Zanahori",
       "id": 2
+    },
+    {
+      "nombre": "Jessica",
+      "apellido": "Talavera",
+      "email": "jessica@gmail.com",
+      "telefono": "123-123-4321",
+      "empresa": "Tailwind",
+      "puesto": "Designer",
+      "id": 3
     }
   ]
 }
