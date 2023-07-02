@@ -30,7 +30,11 @@ defineProps({
   },
 });
 
-const handleSubmit = (data) => {};
+const handleSubmit = (data) => {
+  ClienteService.actualizarCliente(id, data)
+    .then(() => router.push({ name: "home" }))
+    .catch((error) => console.log(error));
+};
 </script>
 
 <template>
@@ -44,7 +48,7 @@ const handleSubmit = (data) => {};
       <div class="mx-auto md:w-2/3 py-20 px-6">
         <FormKit
           type="form"
-          submit-label="Agregar cliente"
+          submit-label="Guardar cambios"
           incomplete-message="Por favor corriga los errores y vuelva a intentarlo"
           @submit="handleSubmit"
           :value="formData"

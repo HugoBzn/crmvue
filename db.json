@@ -6,7 +6,7 @@
       "email": "nightwavedragon@gmail.com",
       "telefono": "123-123-1234",
       "empresa": "Nightwave Dragon",
-      "puesto": "CEO",
+      "puesto": "Dev",
       "estado": 1,
       "id": 1
     },
@@ -21,7 +21,7 @@
       "id": 2
     },
     {
-      "nombre": "Jessica",
+      "nombre": "Jhon",
       "apellido": "Talavera",
       "email": "jessica@gmail.com",
       "telefono": "123-123-4321",
