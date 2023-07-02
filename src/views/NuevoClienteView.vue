@@ -1,7 +1,12 @@
 <script setup>
+import axios from "axios";
 import { FormKit } from "@formkit/vue";
+import { useRouter } from "vue-router";
+
 import RouterLink from "../components/UI/RouterLink.vue";
 import Title from "../components/UI/Title.vue";
+
+const router = useRouter();
 
 defineProps({
   titleProp: {
@@ -10,7 +15,14 @@ defineProps({
 });
 
 const handleSubmit = (data) => {
-  console.log(data);
+  axios
+    .post("http://localhost:4000/clientes", data)
+    .then((respuesta) => {
+      console.log(respuesta);
+      // Redireccionar usuario
+      router.push({ name: "home" });
+    })
+    .catch((error) => console.log(error));
 };
 </script>
 
