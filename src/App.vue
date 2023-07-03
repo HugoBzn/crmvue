@@ -5,12 +5,6 @@ import { RouterView } from "vue-router";
 
 // Components
 import Header from "./components/UI/Header.vue";
-
-onMounted(() => {
-  alert(
-    "If you want to visualize the project correctly, I recommend download the project and initializing it, since it makes use of a local API with json-server"
-  );
-});
 </script>
 
 <template>
