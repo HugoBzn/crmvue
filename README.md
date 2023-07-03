@@ -2,6 +2,8 @@
 
 This app works like a user manager, you can save users and his data and you can edit, delete and create more users. 👨👩
 
+This project is working with Formkit to do all the form and properties https://formkit.com/
+
 This App is working with a local API, created with json-server (npm) https://www.npmjs.com/package/json-server
 
 This idea is from a course made it by Juan de la Torre (Udemy) 🤓.
