@@ -7,7 +7,35 @@ import RouterLink from "../components/UI/RouterLink.vue";
 import Title from "../components/UI/Title.vue";
 import Cliente from "../components/Cliente.vue";
 
-const clientes = ref([]);
+// TODO: If you download the project you can remove this part of code, until the next TODO:
+const users = [
+  {
+    nombre: "John",
+    apellido: "Doe",
+    email: "john@gmail.com",
+    telefono: "123-123-4321",
+    empresa: "VUE",
+    puesto: "Designer",
+    estado: true,
+    id: 3,
+  },
+  {
+    nombre: "Olaaaa",
+    apellido: "Doe",
+    email: "jane@gmail.com",
+    telefono: "123-123-4321",
+    empresa: "VITE",
+    puesto: "Developer",
+    estado: false,
+    id: 4,
+  },
+];
+
+const clientes = ref(users);
+// TODO:
+
+// TODO: Uncomment the next line
+// const clientes = ref([]);
 
 const existenClientes = computed(() => {
   return clientes.value.length > 0;
@@ -31,9 +59,10 @@ const eliminarCliente = (id) => {
 };
 
 onMounted(() => {
-  ClienteService.obtenerClientes()
-    .then(({ data }) => (clientes.value = data))
-    .catch((error) => console.log("Hubo un error"));
+  // TODO: Uncomment the next lines
+  // ClienteService.obtenerClientes()
+  //   .then(({ data }) => (clientes.value = data))
+  //   .catch((error) => console.log("Hubo un error"));
 });
 
 defineProps({
