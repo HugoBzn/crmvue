@@ -5,8 +5,17 @@ This app works like a user manager, you can save users and his data and you can 
 This project is working with Formkit to do all the form and properties https://formkit.com/
 
 This App is working with a local API, created with json-server (npm) https://www.npmjs.com/package/json-server
+To serve this API after you install json-server, you need to run the next code
+
+```sh
+json-server --watch db.json --port 4000
+```
+Now the API is working and you can see how the project works!!! Enjoy!!!
 
 This idea is from a course made it by Juan de la Torre (Udemy) 🤓.
+
+## Important
+You need to have two consoles, the first one running the project and another one running the API. 🧐
 
 ## Vue 3 + Vite
 
