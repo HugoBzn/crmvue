@@ -1,33 +1,13 @@
 {
   "clientes": [
     {
-      "nombre": "Hugo",
-      "apellido": "Bzn",
-      "email": "correo@gmail.com",
-      "telefono": "123-123-1234",
-      "empresa": "Nightwave Dragon",
-      "puesto": "Dev",
-      "estado": true,
-      "id": 1
-    },
-    {
-      "nombre": "Daniela",
-      "apellido": "Vzqz",
-      "email": "daniela@gmail.com",
-      "telefono": "123-123-4567",
-      "empresa": "Danis Nails",
-      "puesto": "Manager",
-      "estado": true,
-      "id": 2
-    },
-    {
       "nombre": "Jhon",
       "apellido": "Talavera",
       "email": "jessica@gmail.com",
       "telefono": "123-123-4321",
       "empresa": "Tailwind",
       "puesto": "Designer",
-      "estado": false,
+      "estado": true,
       "id": 3
     }
   ]
