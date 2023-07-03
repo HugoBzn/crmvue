@@ -1,14 +1,24 @@
 {
   "clientes": [
     {
-      "nombre": "Jhon",
-      "apellido": "Talavera",
-      "email": "jessica@gmail.com",
+      "nombre": "John",
+      "apellido": "Doe",
+      "email": "john@gmail.com",
       "telefono": "123-123-4321",
-      "empresa": "Tailwind",
+      "empresa": "VUE",
       "puesto": "Designer",
       "estado": true,
       "id": 3
+    },
+    {
+      "nombre": "Jane",
+      "apellido": "Doe",
+      "email": "jane@gmail.com",
+      "telefono": "123-123-4321",
+      "empresa": "VITE",
+      "puesto": "Developer",
+      "estado": false,
+      "id": 4
     }
   ]
 }
